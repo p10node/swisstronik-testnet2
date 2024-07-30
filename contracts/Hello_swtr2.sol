@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 //This contract is only intended for testing purposes
 
-contract Swisstronik {
+contract Swisstronik2 {
     string private message;
 
     /**
@@ -25,5 +25,9 @@ contract Swisstronik {
      */
     function getMessage() public view returns (string memory) {
         return message;
+    }
+
+    function getMessage2() public pure returns (string memory) {
+        return "hi";
     }
 }

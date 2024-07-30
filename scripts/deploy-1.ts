@@ -1,13 +1,18 @@
-import hre from "hardhat";
+import hre, { ethers } from "hardhat";
 
 async function main() {
+  const [owner] = await ethers.getSigners();
+  console.log("Deployer:", owner.address);
+
   const contract = await hre.ethers.deployContract("Swisstronik", [
-    "Hello Swisstronik!!",
+    // "Hello Swisstronik!!",
   ]);
 
   await contract.waitForDeployment();
 
-  console.log(`Swisstronik contract deployed to ${contract.target}`);
+  console.log(
+    `Swisstronik contract deployed to: "${contract.target}" <- copy that for "the deployed contract address"`
+  );
 }
 
 // DEFAULT BY HARDHAT:
