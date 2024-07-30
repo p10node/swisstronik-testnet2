@@ -99,6 +99,8 @@ Run it
 pnpm script ./scripts/deploy-5.ts
 ```
 
+Copy URL of [./contracts/PERC721Sample.sol](./contracts/PERC721Sample.sol) (just click at your repo) for "the link to the Github repository"
+
 ```bash
 # Check your output, example:
 
