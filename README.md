@@ -2,8 +2,8 @@
 
 ## 0.1 Requirement
 
-- NodeJS
-- PNPM `npm i -g pnpm`
+- `NodeJS`
+- `PNPM` (`npm i -g pnpm`) or `NPM`
 
 ## 0.2 Repository
 
@@ -14,6 +14,10 @@
 
 ```bash
 pnpm i
+
+# or NPM (recommend for Windows users)
+
+npm install
 ```
 
 Copy `.env.example` to `.env`, edit `.env` and update `PRIVATE_KEY="<here>"`
@@ -24,6 +28,10 @@ Run it
 
 ```bash
 pnpm script ./scripts/deploy-1.ts
+
+# or NPM (recommend for Windows users)
+
+npm run script ./scripts/deploy-1.ts
 ```
 
 ```bash
@@ -41,6 +49,10 @@ Run it
 
 ```bash
 pnpm script ./scripts/deploy-2.ts
+
+# or
+
+npm run script ./scripts/deploy-2.ts
 ```
 
 Copy URL of [./contracts/Token.sol](./contracts/Token.sol) (just click at your repo)  for "the link to the Github repository"
@@ -60,6 +72,10 @@ Run it
 
 ```bash
 pnpm script ./scripts/deploy-3.ts
+
+# or
+
+npm run script ./scripts/deploy-3.ts
 ```
 
 Copy URL of [./contracts/ERC721.sol](./contracts/ERC721.sol) (just click at your repo) for "the link to the Github repository"
@@ -78,6 +94,10 @@ Run it
 
 ```bash
 pnpm script ./scripts/deploy-4.ts
+
+# or
+
+npm run script ./scripts/deploy-4.ts
 ```
 
 Copy URL of [./contracts/PERC20Sample.sol](./contracts/PERC20Sample.sol) (just click at your repo) for "the link to the Github repository"
@@ -97,6 +117,10 @@ Run it
 
 ```bash
 pnpm script ./scripts/deploy-5.ts
+
+# or
+
+npm run script ./scripts/deploy-5.ts
 ```
 
 Copy URL of [./contracts/PERC721Sample.sol](./contracts/PERC721Sample.sol) (just click at your repo) for "the link to the Github repository"
@@ -115,9 +139,13 @@ Run it
 
 ```bash
 pnpm script ./scripts/deploy-6.ts
+
+# or
+
+npm run script ./scripts/deploy-6.ts
 ```
 
-Copy URL of [./contracts/TransparentUpgradeableProxy.sol](./contracts/TransparentUpgradeableProxy.sol) (just click at your repo) for "Enter the deployed contract address [proxy]"
+Copy URL of [./contracts/TransparentUpgradeableProxy.sol](./contracts/TransparentUpgradeableProxy.sol) (just click at your repo) for "Enter the link to the Github repository [proxy]"
 
 
 ```bash
@@ -138,6 +166,6 @@ Response: https://explorer-evm.testnet.swisstronik.com/tx/0xABC <- copy that for
 
 Swisstronik Ambassador `pierreneter`, `p10node`
 
-Website: https://p10node.com
-Contact: pierre@p10node.com
+- Website: https://p10node.com
+- Contact: pierre@p10node.com
 
